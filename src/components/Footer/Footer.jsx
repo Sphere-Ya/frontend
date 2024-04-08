@@ -1,11 +1,12 @@
 import React from "react";
 import Logo from "../Logo/Logo";
+import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <div>
-        <div className="FooterLogo">
+        <div className="footerLogo">
           <Logo />
           Яндекс.Сфера</div>
         <div>2024</div>
