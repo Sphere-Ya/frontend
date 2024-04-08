@@ -1,12 +1,16 @@
 import React from "react";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
-function Main() {
+const Main = () => {
 	return (
 		<>
-			<main>
+			<Header />
+			<main className="main">
 			</main>
+			<Footer />
 		</>
-	)
-}
+	);
+};
 
 export default Main;
