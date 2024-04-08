@@ -1,7 +1,6 @@
 import React from "react";
-import "./Header.css"
+import "./Header.scss"
 
-import Logo from "../Logo/Logo"
 // import Navigation
 // import LoginMenu
 
@@ -11,7 +10,7 @@ function Header() {
 			<header className="header">
 				<div className="header__wrapper">
 					<div className="headerLogo">
-						<Logo /> Яндекс.Сфера</div>
+						<div /> Яндекс.Сфера</div>
 					<div className="userLogin">Войти</div>
 				</div>
 			</header>
