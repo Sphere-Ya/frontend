@@ -1,29 +1,23 @@
-/* eslint-disable react/react-in-jsx-scope */
-import {
-  createHashRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  Route,
-} from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import './App.scss';
 
-import GeneralLayout from '../../layouts/GeneralLayout/GeneralLayout';
-import AdminPage from '../../pages/AdminPage/AdminPage';
+import Main from '../Main/Main';
+import Header from '../Header/Header';
 
 function App() {
-  const routes = createRoutesFromElements(
-    <Route path="/">
-      <Route element={<GeneralLayout />}>
-	  <Route path="admin" element={<AdminPage />} />
-      </Route>
-    </Route>
-  );
-
-  const router = createHashRouter(routes);
 
   return (
-      < >
-        <RouterProvider router={router} />
-      </>
+      <Routes>
+          <Route
+            index
+            element={
+              <Main>
+                <Header></Header>
+              </Main>
+            }
+          />
+      </Routes>
   );
 }
 
