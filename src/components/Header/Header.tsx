@@ -1,18 +1,16 @@
 import React from "react";
 import "./Header.scss"
-
-// import Navigation
-// import LoginMenu
+import Logo from "../Logo/Logo";
 
 function Header() {
 	return (
 		<>
 			<header className="header">
 				<div className="header__wrapper">
-					<div className="headerLogo">
-						<div /> Яндекс.Сфера</div>
-					<div className="userLogin">Войти</div>
+					<Logo />
+					<p className="header__title">Яндекс.Сфера</p>
 				</div>
+					<button className="header__button"></button>
 			</header>
 		</>
 	)

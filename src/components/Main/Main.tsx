@@ -1,12 +1,18 @@
 import React from 'react';
 import './Main.scss';
+import Header from '../Header/Header';
+import Footer from "../Footer/Footer";
 
-type HeaderProps = {
-  children: React.ReactNode;
+
+function Main() {
+    return (
+        <>  
+            <Header/>
+            <main>
+            </main>
+            <Footer />
+        </>
+    );
 };
 
-function Ambassadors(props: HeaderProps) {
-  return <div className="main">{props.children}</div>;
-}
-
-export default Ambassadors;
+export default Main;
