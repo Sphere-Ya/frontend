@@ -1,0 +1,8 @@
+@import url(./vendor/fonts/YS/fonts.css);
+@import url(./vendor/normalize.scss);
+
+.page {
+  font-family: 'YS Text', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
