@@ -1,0 +1,54 @@
+// VENDORS
+@import './vendor/normalize.scss';
+
+// FONTS
+@import '../../assets/fonts/fonts.scss';
+@import '../../assets/fonts/fonts.css';
+
+// MIXINS
+@import './abstracts/mixins.scss';
+
+// VARIABLES
+@import './abstracts/variables.scss';
+
+// PLACEHOLDERS
+@import './abstracts/placeholders.scss';
+
+// BASE
+@import './base/base.scss';
+
+// LAYOUTS
+@import '../layouts/GeneralLayout/GeneralLayout.scss';
+@import '../layouts/ServiceLayout/ServiceLayout.scss';
+
+// PAGES
+// @import '../pages/RestorePasswordPage/RestorePasswordPage.scss';
+// @import '../pages/AdminPage/AdminPage.scss';
+// @import '../pages/CompanyStructurePage/CompanyStructurePage.scss';
+// @import '../pages/EmployeePage/EmployeePage.scss';
+// @import '../pages/EmployeesPage/EmployeesPage.scss';
+// @import '../pages/EmployeesByDepartmentPage/EmployeesByDepartmentPage.scss';
+// @import '../pages/LoginPage/LoginPage.scss';
+// @import '../pages/MainPage/MainPage.scss';
+// @import '../pages/NewEmployeePage/NewEmployeePage.scss';
+// @import '../pages/NotFoundPage/NotFoundPage.scss';
+// @import '../pages/SuccessSentToEmailPage/SuccessSentToEmailPage.scss';
+// @import '../pages/ResetSuccessPage/ResetSuccessPage.scss';
+
+// // COMPONENTS
+// @import '../components/Breadcrumb/Breadcrumb.scss';
+// @import '../components/Footer/Footer.scss';
+// @import '../components/Header/Header.scss';
+// @import '../components/HeaderMain/HeaderMain.scss';
+// @import '../components/Page/page.scss';
+// @import '../components/Preloader/Preloader.scss';
+// @import '../components/Logo/Logo.scss';
+// @import '../components/Notification/Notification.scss';
+// @import '../components/SideMenu/SideMenu.scss';
+// @import '../components/ProfileInfo/ProfileInfo.scss';
+// @import '../components/ResetPasswordForm/ResetPasswordForm.scss';
+// @import '../components/RestorePasswordForm/RestorePasswordForm.scss';
+// @import '../components/Login/Login.scss';
+// @import '../components/EmployeesList/EmployeesList.scss';
+// @import '../components/EmployeesSearch/EmployeesSearch.scss';
+// @import '../components/EmployeesPaginations/EmployeesPaginations.scss';

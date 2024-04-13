@@ -1,0 +1,16 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: $fontFamily;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: $color-background-main;
+}

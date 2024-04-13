@@ -1,0 +1,12 @@
+%bigText {
+  @include text(40px, 112.5%, 600);
+  letter-spacing: -0.4px;
+}
+
+%mediumText {
+  @include text(16px, 150%, 600);
+}
+
+%smallText {
+  @include text(14px, 150%);
+}
