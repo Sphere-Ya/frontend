@@ -29,11 +29,34 @@ const Modal = ({ active, setActive }) => {
           <div className="input__type">Должность</div>
           <input className="form__input"></input>
           <div className="input__type">Ваш опыт Работы</div>
-          <input className="form__input"></input>
+          <select className="form__input">
+            <option value="0-1">0-1 года</option>
+            <option value="1-3">1-3 года</option>
+            <option value="3-5">3-5 лет</option>
+            <option value="5+">5+ лет</option>
+          </select>
           <div className="input__type">Ваше направление</div>
-          <input className="form__input"></input>
+          <select className="form__input">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
           <div className="input__type">Стек технологий</div>
-          <input className="form__input"></input>
+          <select className="form__input">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
           <div className="input__type"></div>
           <input className="form__input-radio" type="radio"></input>
           <div className="input__type"></div>
