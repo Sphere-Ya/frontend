@@ -1,8 +1,15 @@
+import * as React from 'react';
+import Typography from '@mui/material/Typography';
+import Pagination from '@mui/material/Pagination';
+import Stack from '@mui/material/Stack';
 import EventsCard from "../EventsCard/EventsCard";
-import React from "react";
 import './EventsCardList.scss';
 
 function PastEvents() {
+    const [page, setPage] = React.useState(1);
+    const handleChange = (event, value) => {
+      setPage(value);
+    };
 
     return (
         <section className='past-events'>
@@ -26,6 +33,11 @@ function PastEvents() {
                 <EventsCard />
                 <EventsCard />
             </ul>
+            <div className="past-events__pagination">
+                <Stack spacing={2}>
+                <Pagination count={3} page={page} onChange={handleChange} />
+                </Stack>
+            </div>
         </section>
     );
 };
