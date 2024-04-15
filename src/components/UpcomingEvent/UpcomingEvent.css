@@ -235,6 +235,16 @@
   border-radius: 20px;
 }
 
+.tag-register {
+  background-color: rgba(140, 61, 244, 1);
+  border-radius: 20px;
+  color: #eee;
+  width: 178px;
+  height: 30px;
+  padding: 10px 0 0 0;
+  cursor: pointer;
+}
+
 .event__speakers {
   display: grid;
   grid-template-columns: 33% 33% 33%;

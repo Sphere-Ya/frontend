@@ -1,11 +1,13 @@
-import React from "react"
+import React, { useState } from "react"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import "./UpcomingEvent.css"
 import EventImage from "../images/Image.svg"
+import Modal from "../RegisterPopup/RegisterPopup"
 // Подставить данные с бэка
 
 export const UpcomingEvent = () => {
+  const [modalActive, setModalActive] = useState(true)
   return (
     <>
       <Header />
@@ -34,7 +36,7 @@ export const UpcomingEvent = () => {
             <p className="navbar__tag">Программа</p>
             <p className="navbar__tag">Спикеры</p>
             <p className="navbar__tag">Как добраться</p>
-            <p className="navbar__tag tag-register">Зарегистрироваться</p>
+            <button className="navbar__tag tag-register" onClick={() => setModalActive(true)}>Зарегистрироваться</button>
           </div>
         </div>
         <div className="event__column2">
@@ -109,6 +111,7 @@ export const UpcomingEvent = () => {
           </div>
         </div>
       </div>
+      <Modal active={modalActive} setActive={setModalActive} />
       <Footer />
     </>
   )
