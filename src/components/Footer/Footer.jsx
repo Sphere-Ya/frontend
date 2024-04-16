@@ -5,11 +5,14 @@ import "./Footer.scss";
 function Footer() {
   return (
     <footer className="footer">
-      <div>
-        <div className="footerLogo">
+      <div className="footer__menu">
+        <div className="footer__wrapper">
           <Logo />
-          Яндекс.Сфера</div>
-        <div>2024</div>
+          <p className="footer__title">Яндекс.Сфера</p>
+        </div>
+        <div className="header__footer-container">
+          <p className="footer__subtitle">2024</p>
+        </div>
       </div>
     </footer>
   )

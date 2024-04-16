@@ -1,0 +1,72 @@
+.event__card-user {
+  height: 296px;
+  width: 186px;
+  list-style-type: none;
+}
+
+.events__card-img {
+  width: 184px;
+  height: 88px;
+}
+
+.events__card-title {
+  font-family: "YS Text";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: white;
+  padding: 24px 12px 20px 12px;
+  width: 162px;
+}
+
+.events__card-date {
+  background-color: white;
+  height: 12px;
+  gap: 4px;
+  font-family: "YS Text";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  padding: 10px 12px 10px 12px;
+  margin: -20px 0px 0 0;
+  width: 162px;
+}
+
+.events__card-location {
+  background-color: white;
+  width: 160px;
+  height: 12px;
+  gap: 4px;
+  font-family: "YS Text";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  padding: 13px 28px 95px 12px;
+  margin: -18px 0 0 0;
+  border-radius: 0px 0px 20px 20px;
+  width: 146px;
+}
+
+.event__card-ticket {
+  font-family: "YS Text";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgb(140, 146, 152, 1);
+  margin: -77px 0 0 0;
+  width: 162px;
+}
+
+.event__card-cal {
+  font-family: YS Text;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(140, 61, 244, 1);
+  cursor: pointer;
+  width: 162px;
+}

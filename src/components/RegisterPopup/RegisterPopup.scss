@@ -1,0 +1,272 @@
+$font-family_1: 'YS Text';
+$font-family_2: 'YS Display';
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+
+  &.active {
+    transform: scale(1);
+    pointer-events: all;
+  }
+}
+
+.modal__content {
+  padding: 20px;
+  background-color: white;
+  Width: 784px;
+  Height: 800px;
+  transform: scale(0.5);
+  transition: 0.4s all;
+  overflow-y: auto;
+  overflow: auto;
+  scrollbar-width: none;
+
+  &.active {
+    display: grid;
+    transform: scale(1);
+    overflow: auto;
+    border-radius: 24px;
+    height: 87%;
+  }
+}
+
+.modal__welcome {
+  width: 548px;
+  height: 156px;
+  left: 38.11px;
+  padding: 20px 20px 20px 32px;
+  margin: 0px 0px 0px 30px;
+  gap: 4px;
+  border-radius: 20px;
+  background-color: rgba(236, 232, 255, 1);
+}
+
+.modal__welcome-p1 {
+  font-family: $font-family_1;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  text-align: left;
+}
+
+.modal__welcome-p2 {
+  font-family: $font-family_1;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.modal__welcome-image {
+  grid-area: 1 / 2;
+  width: 82px;
+  height: 82px;
+  border-radius: 100%;
+  margin: 50px 0 0px 25px;
+}
+
+.modal__form {
+  display: grid;
+  background-color: rgba(245, 250, 255, 1);
+  grid-column: span 2;
+  padding: 0px 30px 250px 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(16, 45px);
+  margin: 45px 0px 5px 0px;
+  border-radius: 32px;
+  justify-items: start;
+  align-items: end;
+}
+
+.input__type {
+  font-family: $font-family_1;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.modal__form-title {
+  font-family: $font-family_2;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  margin: 30px 0 0 0;
+}
+
+.modal__triangle {
+  margin: -175px 0 0 0;
+}
+
+.input__name-title {
+  grid-area: 2 / 1;
+}
+
+.input__name {
+  grid-area: 3 / 1;
+}
+
+.input__lastname-title {
+  grid-area: 2 / 2;
+}
+
+.input__lastname {
+  grid-area: 3 / 2;
+}
+
+.input__email-title {
+  grid-area: 4 / 1;
+}
+
+.input__email {
+  grid-area: 5 / 1;
+}
+
+.input__phone-title {
+  grid-area: 4 / 2;
+}
+
+.input__phone {
+  grid-area: 5 / 2;
+}
+
+.input__place-title {
+  grid-area: 6 / 1;
+  margin: -725px 0px 0px 30px;
+  height: 30px;
+}
+
+.input__place {
+  grid-area: 7 / 1;
+  margin: -700px 0px 0px 25px;
+  width: 104%;
+  height: 17px;
+}
+
+.input__job-title {
+  grid-area: 8 / 1;
+}
+
+.input__job {
+  grid-area: 9 / 1;
+}
+
+.input__exp-title {
+  grid-area: 8 / 2;
+}
+
+.input__exp {
+  grid-area: 9 / 2;
+}
+
+.input__front-title {
+  grid-area: 10 / 1;
+}
+
+.input__front {
+  grid-area: 11 / 1;
+}
+
+.input__stack-title {
+  grid-area: 10 / 2;
+}
+
+.input__stack {
+  grid-area: 11 / 2;
+}
+
+.input__radio-title {
+  grid-area: 13;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  row-gap: 6px;
+}
+
+.input__checkbox1 {
+  grid-area: 14 / 1;
+  margin: 0px 0px 0px -145px;
+}
+
+.input__checkbox-title1 {
+  grid-area: 14 / 2;
+  width: 620px;
+  margin: 0px 0px -127px -311px;
+}
+
+.input__checkbox-title2 {
+  grid-area: 15 / 2;
+  width: 620px;
+  margin: 0px 0px -225px -311px;
+}
+
+.input__checkbox2 {
+  grid-area: 15 / 1;
+  margin: 0px 0px -94px -145px;
+}
+
+.form__input {
+  font-family: $font-family_1;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  width: 306px;
+  padding: 10px 12px 10px 12px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.input__radio-title1 {
+  margin: 0 0 0 20px;
+}
+
+.input__radio-title2 {
+  margin: 8px 0 0 20px;
+}
+
+.form__input-radio {
+  margin: -22px 0 0 0;
+}
+
+.input__colortext {
+  color: red;
+}
+
+.input__colortext-radio {
+  color: red;
+  margin: 0px 0px -25px -10px;
+}
+
+.form__button {
+  cursor: pointer;
+  width: 240px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #8C3DF4;
+  border-width: 1px;
+}
+
+.from__button-submit {
+  margin: 0px 0px -220px -0px;
+  grid-area: 19 / 1;
+  background-color: rgba(140, 61, 244, 1);
+  color: white;
+}
+
+.from__button-clear {
+  margin: 0px 0px -220px -27%;
+  grid-area: 19 / 2;
+  color: rgba(140, 61, 244, 1);
+}
