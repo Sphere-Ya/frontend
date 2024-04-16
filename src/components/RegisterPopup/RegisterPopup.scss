@@ -1,3 +1,6 @@
+$font-family_1: 'YS Text';
+$font-family_2: 'YS Display';
+
 .modal {
   width: 100%;
   height: 100%;
@@ -48,7 +51,7 @@
 }
 
 .modal__welcome-p1 {
-  font-family: 'Yandex Sans Text';
+  font-family: $font-family_1;
   font-size: 16px;
   font-weight: 800;
   line-height: 20px;
@@ -56,7 +59,7 @@
 }
 
 .modal__welcome-p2 {
-  font-family: 'Yandex Sans Text';
+  font-family: $font-family_1;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -86,7 +89,7 @@
 }
 
 .input__type {
-  font-family: 'Yandex Sans Text';
+  font-family: $font-family_1;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -94,7 +97,7 @@
 }
 
 .modal__form-title {
-  font-family: 'Yandex Sans Display';
+  font-family: $font-family_2;
   font-size: 24px;
   font-weight: 500;
   line-height: 32px;
@@ -205,16 +208,16 @@
 .input__checkbox-title2 {
   grid-area: 15 / 2;
   width: 620px;
-  margin: 0px 0px -215px -311px;
+  margin: 0px 0px -225px -311px;
 }
 
 .input__checkbox2 {
   grid-area: 15 / 1;
-  margin: 0px 0px -88px -145px;
+  margin: 0px 0px -94px -145px;
 }
 
 .form__input {
-  font-family: 'Yandex Sans Text';
+  font-family: $font-family_1;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
