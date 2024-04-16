@@ -2,15 +2,14 @@ $color_1: rgba(45, 111, 240, 1);
 $color_2: #eee;
 $color_3: rgba(26, 26, 26, 1);
 $color_4: rgba(140, 146, 152, 1);
-$font-family_1: 'Yandex Sans Text';
-$font-family_2: 'Yandex Sans Display';
+$font-family_1: 'YS Text';
+$font-family_2: 'YS Display';
 $background-color_1: rgba(255, 255, 255, 1);
 $background-color_2: rgba(140, 61, 244, 1);
 $border-color_1: white;
 
-@import "../../assets/fonts/fonts.scss";
+// @import "../../vendor/fonts/YS/fonts.css";
 
-/* rgb(245, 250, 255) */
 .route {
   font-family: $font-family_1;
   font-size: 14px;
