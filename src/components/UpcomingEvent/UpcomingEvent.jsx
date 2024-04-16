@@ -4,7 +4,6 @@ import Footer from "../Footer/Footer"
 import "./UpcomingEvent.scss"
 import EventImage from "../images/Image.svg"
 import Modal from "../RegisterPopup/RegisterPopup"
-// Подставить данные с бэка
 
 export const UpcomingEvent = () => {
   const [modalActive, setModalActive] = useState(true)
@@ -41,14 +40,6 @@ export const UpcomingEvent = () => {
         </div>
         <div className="event__column2">
           <div className="event__about">
-            {/* <h2 className="event__video-title">Видео</h2> */}
-            {/* <div className="">
-              <iframe className="event__video" width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" allow="autoplay; encrypted-media"></iframe>
-            </div> */}
-            {/* <h2 className="event__docs">Доклады
-              <a className="event__doc-link" href="/">Ссылка на документ</a>
-              <a className="event__doc-link" href="/">Ссылка на документ</a>
-            </h2> */}
             <h2 className="event__description event__description-upcoming event__title">О мероприятии
               <p className="event__description-p">Приглашаем практикующих разработчиков С++ и энтузиастов языка на встречу Российской рабочей группы по стандартизации С++ (РГ21 С++). На мероприятии обсудим новости последних встреч Международного комитета по стандартизации C++, самые интересные новинки C++26, когда ждать рефлексию и std:get для пользовательских структур.
                 Руководитель РГ21 С++ Антон Полухин ответит на вопросы о возможностях для российских разработчиков участвовать в развитии стандарта языка. А ещё мы вместе погенерим идеи для новых изменений!

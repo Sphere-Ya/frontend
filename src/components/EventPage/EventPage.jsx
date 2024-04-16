@@ -3,7 +3,6 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import "./EventPage.scss"
 import EventImage from "../images/Image.svg"
-// Подставить данные с бэка
 
 export const EventPage = () => {
 	return (
@@ -40,7 +39,7 @@ export const EventPage = () => {
 					<div className="event__about">
 						<h2 className="event__video-title">Видео</h2>
 						<div className="">
-							<iframe className="event__video" width="560" height="315" src="https://www.youtube.com/embed/jNQXAC9IVRw" allow="autoplay; encrypted-media"></iframe>
+							<iframe className="event__video" width="560" height="315" src="https://www.youtube.com/embed/YhyRZ9ovAq4?si=J7RDuyh6ZsTge46i" title="YouTube video player" allow="autoplay; encrypted-media"></iframe>
 						</div>
 						<h2 className="event__docs">Доклады
 							<a className="event__doc-link" href="/">Ссылка на документ</a>
@@ -66,7 +65,7 @@ export const EventPage = () => {
 								<p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
 							</div>
 							<div className="event__speaker">
-								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
+								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/6852/0033/4f1ee62ac98f99ac2d0e30a48326f347?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MDrpMSDK7Dikx59vEAaXdSwinwVNoNt6LIpbAl2iExnC065Ihb08h5Yrg9d1sQXC39QMAoXnan~Um8A7Anx2N6l5X3dyEJOlpjNQBPpaEmQ3CtvZDnIdYkRdROCwyXEdmWNmBkwTeglNfPK~cHKK9CXj~heinBl-RyJIes-AZtkUWLHB09dQGBVJHnrnwRG4qZyHI7H5X62ko6G3GFgp7eMkUWRSYrCvpNNsxWGp-VVwKJxdtHUYaXxab2Rys-BNEYrrqYJmaOgpPrb1~KJz7dDd3~mjmPmOdA0lfkuH~QJkLMh7wcrgk3FPNLThV6aoabvVi7yiiSbQmAlXop5Tcw__"></img>
 								<h2 className="event__speaker-name">Евгений Иванов</h2>
 								<p className="event__speaker-job">Яндекс Go</p>
 								<p className="event__speaker-position">Руководитель группы разработки C++</p>

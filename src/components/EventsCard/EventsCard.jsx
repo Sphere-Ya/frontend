@@ -22,7 +22,7 @@ function EventsCard() {
           <p className="events-card__location">Москва+Онлайн</p>
           <Link
             className="events-card__link"
-            to="/event"
+            to="/upcomingevent"
             target="_blank"
           >Зарегистрироваться
           </Link>

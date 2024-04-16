@@ -7,7 +7,7 @@ import './EventsCardList.scss';
 function PastEvents() {
     const [page, setPage] = React.useState(1);
     const handleChange = (event, value) => {
-      setPage(value);
+        setPage(value);
     };
 
     return (
@@ -15,34 +15,30 @@ function PastEvents() {
             <div className="events-cardlist__filters">
                 <div className="events__cardlist__container-filter">
                     <label className="events-cardlist__label">Тема:
-                    <select className="events-cardlist__select">
-                        <option className="events-cardlist__filters-option">Все темы</option>
-                        {/* Другие варианты */}
-                    </select>
+                        <select className="events-cardlist__select">
+                            <option className="events-cardlist__filters-option">Все темы</option>
+                        </select>
                     </label>
                 </div>
                 <div className="events-cardlist__container-filter">
                     <label className="events-cardlist__label">Формат:
-                    <select className="events-cardlist__select">
-                        <option className="events-cardlist__filters-option">Онлайн или офлайн</option>
-                        {/* Другие варианты */}
-                    </select>
+                        <select className="events-cardlist__select">
+                            <option className="events-cardlist__filters-option">Онлайн или офлайн</option>
+                        </select>
                     </label>
                 </div>
                 <div className="events-cardlist__container-filter">
                     <label className="events-cardlist__label">Город:
-                    <select className="events-cardlist__select">
-                        <option className="events-cardlist__filters-option">Название города</option>
-                        {/* Другие варианты */}
-                    </select>
+                        <select className="events-cardlist__select">
+                            <option className="events-cardlist__filters-option">Название города</option>
+                        </select>
                     </label>
                 </div>
                 <div className="events-cardlist__container-filter">
                     <label className="events-cardlist__label">Год:
-                    <select className="events-cardlist__select">
-                        <option className="events-cardlist__filters-option">За все время</option>
-                        {/* Другие варианты */}
-                    </select>
+                        <select className="events-cardlist__select">
+                            <option className="events-cardlist__filters-option">За все время</option>
+                        </select>
                     </label>
                 </div>
                 <div className="events-cardlist__container-button">
@@ -71,7 +67,7 @@ function PastEvents() {
             </ul>
             <div className="events-cardlist__pagination">
                 <Stack spacing={2}>
-                <Pagination count={3} page={page} onChange={handleChange} />
+                    <Pagination count={3} page={page} onChange={handleChange} />
                 </Stack>
             </div>
         </section>

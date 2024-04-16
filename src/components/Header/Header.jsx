@@ -13,9 +13,9 @@ function Header() {
 						<p className="header__title">Яндекс.Сфера</p>
 					</div>
 					<div className="header__login-container">
-						<Link to="/event" className="header__login">
-						{" "}
-						Войти
+						<Link to="/upcomingevent" className="header__login">
+							{" "}
+							Войти
 						</Link>
 					</div>
 				</div>

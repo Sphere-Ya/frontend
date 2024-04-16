@@ -28,15 +28,15 @@ export const UserPage = () => {
           <div className="user__route">Главная / Мои события /</div>
           <div className="user__upcoming user__event-type">Предстоящие</div>
           <div className="user__events-upcoming">
-            <EventCardMini className="event__card" />
-            <EventCardMini className="event__card" />
-            <EventCardMini className="event__card" />
-            <EventCardMini className="event__card" />
-            <EventCardMini className="event__card" />
+            <EventCardMini className="event__card-user" />
+            <EventCardMini className="event__card-user" />
+            <EventCardMini className="event__card-user" />
+            <EventCardMini className="event__card-user" />
+            <EventCardMini className="event__card-user" />
           </div>
           <div className="user__event-type"> Прошедшие
             <div className="user__events-past">
-              <EventCardMini className="event__card" />
+              <EventCardMini className="event__card-user" />
             </div>
           </div>
         </div>
