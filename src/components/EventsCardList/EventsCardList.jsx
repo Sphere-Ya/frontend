@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import EventsCard from "../EventsCard/EventsCard";
@@ -12,9 +11,46 @@ function PastEvents() {
     };
 
     return (
-        <section className='past-events'>
-            <h2 className="past-events__title-up">Предстоящие</h2>
-            <ul className='past-events__container-up'>
+        <section className='events-cardlist'>
+            <div className="events-cardlist__filters">
+                <div className="events__cardlist__container-filter">
+                    <label className="events-cardlist__label">Тема:
+                    <select className="events-cardlist__select">
+                        <option className="events-cardlist__filters-option">Все темы</option>
+                        {/* Другие варианты */}
+                    </select>
+                    </label>
+                </div>
+                <div className="events-cardlist__container-filter">
+                    <label className="events-cardlist__label">Формат:
+                    <select className="events-cardlist__select">
+                        <option className="events-cardlist__filters-option">Онлайн или офлайн</option>
+                        {/* Другие варианты */}
+                    </select>
+                    </label>
+                </div>
+                <div className="events-cardlist__container-filter">
+                    <label className="events-cardlist__label">Город:
+                    <select className="events-cardlist__select">
+                        <option className="events-cardlist__filters-option">Название города</option>
+                        {/* Другие варианты */}
+                    </select>
+                    </label>
+                </div>
+                <div className="events-cardlist__container-filter">
+                    <label className="events-cardlist__label">Год:
+                    <select className="events-cardlist__select">
+                        <option className="events-cardlist__filters-option">За все время</option>
+                        {/* Другие варианты */}
+                    </select>
+                    </label>
+                </div>
+                <div className="events-cardlist__container-button">
+                    <button className="events-cardlist-button">Сбросить фильтры</button>
+                </div>
+            </div>
+            <h2 className="events-cardlist__title-up">Предстоящие</h2>
+            <ul className='events-cardlist__container-up'>
                 <EventsCard />
                 <EventsCard />
                 <EventsCard />
@@ -23,8 +59,8 @@ function PastEvents() {
                 <EventsCard />
                 <EventsCard />
             </ul>
-            <h2 className="past-events__title-past">Прошедшие</h2>
-            <ul className='past-events__container-past'>
+            <h2 className="events-cardlist__title-past">Прошедшие</h2>
+            <ul className='events-cardlist__container-past'>
                 <EventsCard />
                 <EventsCard />
                 <EventsCard />
@@ -33,7 +69,7 @@ function PastEvents() {
                 <EventsCard />
                 <EventsCard />
             </ul>
-            <div className="past-events__pagination">
+            <div className="events-cardlist__pagination">
                 <Stack spacing={2}>
                 <Pagination count={3} page={page} onChange={handleChange} />
                 </Stack>
