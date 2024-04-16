@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import "./UpcomingEvent.css"
+import "./UpcomingEvent.scss"
 import EventImage from "../images/Image.svg"
 import Modal from "../RegisterPopup/RegisterPopup"
 // Подставить данные с бэка
@@ -58,19 +58,19 @@ export const UpcomingEvent = () => {
             <div className="event__speakers event__speakers-upcoming">
               <div className="event__speaker">
                 <img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-                <h2 className="event__speaker-name">Антон</h2>
+                <h2 className="event__speaker-name">Антон Полухин</h2>
                 <p className="event__speaker-job">Яндекс Go</p>
                 <p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
               </div>
               <div className="event__speaker">
-                <img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-                <h2 className="event__speaker-name">Константин</h2>
+                <img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/d648/ee3b/3751fbb302872ba292cb76fbab5b5a9b?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b6v9fg6vTCo8E7brTig4ISwuwHlVFmqfm20M-Myu44LtEzbBgNxLEFlREnPNJCLXsXO~abA1pCZHyduxp4~dSXTe6PbR~rAsglihstYGei8JbC1U0jBjcQ9SvYZYSYDr16DCGq7HJHPrWsn3fnR1JY8-qZKRT75A8GiE3UA01DlAS2FMmHVtfeZygoCavyUQ618brBuS81xlk3PMK9EW~xO-7HuyfjcfquNznQmEZW~NF3ZSV2pp9Mac7Y4YGHguQrSLHlVxlUjvCnhINuS9evl4Yg0VRbhGG2oMNeFSh8v98WUy7lfFuib2-NUPlNzyzrfm96y3Ewwt9fvQDmPsUw__"></img>
+                <h2 className="event__speaker-name">Константин Константипольскийн</h2>
                 <p className="event__speaker-job">Яндекс Go</p>
                 <p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
               </div>
               <div className="event__speaker">
-                <img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-                <h2 className="event__speaker-name">Эрмедек</h2>
+                <img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/9a06/2efa/5cf8960794dc5325cf75adda5ad04d65?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S-4NGY4Q7iGzEoa1deNYZiK4riA5hAH2bsk7u36~pbn5egtMKq87XYO5vaQM8N5NYwhJCqw1sjwhF80uyoaLmP9ST9ZhJ5kWEkO4ps5VqGO~B6UkOfSd~2LEOJ4dPhjfoD8Iyw7mBC0MPT1zRYM3opSw3fxOQ-XA0RDmMX1WPcislAKltT9s3mH70v95ACg2aadaEsSqX8MczBLi5eYagtWBtJyhMl~k7hujAQeEk3nEvjO2GCgQ7lrNHNSUou-rOUlgJ~qgciK8D~9vuHheFRLs7-Bp4s53NfWuiRr~pTbbIyXsnOvtTsd2cwRzybLZtCoBiJ4pN-uKdZELw0s-dA__"></img>
+                <h2 className="event__speaker-name">Эрмедек Мермедекштанский-Рубчинский</h2>
                 <p className="event__speaker-job">Яндекс Go</p>
                 <p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
               </div>
@@ -96,8 +96,15 @@ export const UpcomingEvent = () => {
                 <div className="event__progam-description">Обсуждение идеи для новых изменений в стандарте</div>
                 <p className="event__program-p">Расскажем про устройство и компоненты, которые используются для построения
                   высоконагруженного и стабильного облачного DNS, а также о планах развития сервиса.</p>
-                <img className="speaker-photo-program" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-                <div className="event__program-author">Антон Полухин</div>
+                <img className="speaker-photo-program" src="https://s3-alpha-sig.figma.com/img/d648/ee3b/3751fbb302872ba292cb76fbab5b5a9b?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b6v9fg6vTCo8E7brTig4ISwuwHlVFmqfm20M-Myu44LtEzbBgNxLEFlREnPNJCLXsXO~abA1pCZHyduxp4~dSXTe6PbR~rAsglihstYGei8JbC1U0jBjcQ9SvYZYSYDr16DCGq7HJHPrWsn3fnR1JY8-qZKRT75A8GiE3UA01DlAS2FMmHVtfeZygoCavyUQ618brBuS81xlk3PMK9EW~xO-7HuyfjcfquNznQmEZW~NF3ZSV2pp9Mac7Y4YGHguQrSLHlVxlUjvCnhINuS9evl4Yg0VRbhGG2oMNeFSh8v98WUy7lfFuib2-NUPlNzyzrfm96y3Ewwt9fvQDmPsUw__"></img>
+                <div className="event__program-author">Константин Константипольский</div>
+              </div>
+              <div className="event__progam-columns">
+                <div className="event__progam-timing">21:00-22:00</div>
+                <div className="event__progam-description">Хранилище данных для критически важной инфраструктуры</div>
+                <p className="event__program-p">Про путь команды при разработке программного комплекса для критический инфраструктуры, с упором на вопросы хранения данных.</p>
+                <img className="speaker-photo-program" src="https://s3-alpha-sig.figma.com/img/9a06/2efa/5cf8960794dc5325cf75adda5ad04d65?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=S-4NGY4Q7iGzEoa1deNYZiK4riA5hAH2bsk7u36~pbn5egtMKq87XYO5vaQM8N5NYwhJCqw1sjwhF80uyoaLmP9ST9ZhJ5kWEkO4ps5VqGO~B6UkOfSd~2LEOJ4dPhjfoD8Iyw7mBC0MPT1zRYM3opSw3fxOQ-XA0RDmMX1WPcislAKltT9s3mH70v95ACg2aadaEsSqX8MczBLi5eYagtWBtJyhMl~k7hujAQeEk3nEvjO2GCgQ7lrNHNSUou-rOUlgJ~qgciK8D~9vuHheFRLs7-Bp4s53NfWuiRr~pTbbIyXsnOvtTsd2cwRzybLZtCoBiJ4pN-uKdZELw0s-dA__"></img>
+                <div className="event__program-author">Эрмедек Мермедекштанский-Рубчинский</div>
               </div>
             </div>
             <h2 className="event__location-address event__title">Как добраться</h2>
