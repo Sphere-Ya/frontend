@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
-import EventsCard from "../EventsCard/EventsCard";
+import EventsCardUp from "../EventsCardUp/EventsCardUp";
+import EventsCardPast from "../EventsCardPast/EventsCardPast";
 import './EventsCardList.scss';
 
 function PastEvents() {
@@ -53,28 +54,29 @@ function PastEvents() {
             </div>
             <h2 className="events-cardlist__title-up">Предстоящие</h2>
             <ul className='events-cardlist__container-up'>
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
+                <EventsCardUp />
+                <EventsCardUp />
+                <EventsCardUp />
+                <EventsCardUp />
+                <EventsCardUp />
+                <EventsCardUp />
+                <EventsCardUp />
             </ul>
             <div className="events-cardlist__pagination">
                 <Stack spacing={2}>
-                <Pagination count={3} page={page} onChange={handleChange} />
+                <Pagination count={1} page={page} onChange={handleChange} />
                 </Stack>
             </div>
             <h2 className="events-cardlist__title-past">Прошедшие</h2>
             <ul className='events-cardlist__container-past'>
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
-                <EventsCard />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
+                <EventsCardPast />
             </ul>
             <div className="events-cardlist__pagination">
                 <Stack spacing={2}>
