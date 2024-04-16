@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer"
 import { ReactComponent as LogoutImg } from "../images/exit.svg"
 import { ReactComponent as Line } from "../images/Line.svg"
 import { ReactComponent as LineSelect } from "../images/Line-2.svg"
+import EventCardMini from "../EventCardMini/EventCardMini";
 import "./UserPage.css"
 
 export const UserPage = () => {
@@ -25,16 +26,18 @@ export const UserPage = () => {
         </div>
         <div className="user__content-column">
           <div className="user__route">Главная / Мои события /</div>
-          <div className="user__events-upcoming"> Предстоящие
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
-            <div className=""></div>
+          <div className="user__upcoming user__event-type">Предстоящие</div>
+          <div className="user__events-upcoming">
+            <EventCardMini className="event__card" />
+            <EventCardMini className="event__card" />
+            <EventCardMini className="event__card" />
+            <EventCardMini className="event__card" />
+            <EventCardMini className="event__card" />
           </div>
-          <div className="user__events-past"> Прошедшие
-            <div className=""></div>
+          <div className="user__event-type"> Прошедшие
+            <div className="user__events-past">
+              <EventCardMini className="event__card" />
+            </div>
           </div>
         </div>
       </div>
