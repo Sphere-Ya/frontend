@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import './EventsCard.scss';
-import Event from "../images/event-1.jpg";
+import './EventsCardPast.scss';
+import Event from "../images/event-past.jpg";
 
 function EventsCard() {
   return (
@@ -17,14 +17,14 @@ function EventsCard() {
           <div className="events-card__info-speciality">
             <p className="events-card__speciality">Менеджмент</p>
           </div>
-          <h2 className="events-card__title">Yet Another Level: Evoiution</h2>
+          <h2 className="events-card__title">HR Tech Python Meetup; Екатеринбург</h2>
           <p className="events-card__date">Пн, 25 марта</p>
-          <p className="events-card__location">Москва+Онлайн</p>
+          <p className="events-card__location">Екатеринбург</p>
           <Link
             className="events-card__link"
             to="/upcomingevent"
             target="_blank"
-          >Зарегистрироваться
+          >Смотреть материалы
           </Link>
         </div>
       </div>
