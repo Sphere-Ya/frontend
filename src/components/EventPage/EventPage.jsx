@@ -54,22 +54,22 @@ export const EventPage = () => {
 						<h2 className="event__speakers-title">Спикеры</h2>
 						<div className="event__speakers">
 							<div className="event__speaker">
-								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-								<h2 className="event__speaker-name">Антон</h2>
+								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/13ea/a0cb/a99b42cd3f6f547246e1f9cd3a651a42?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qq9G3qyL0iQonbA3N7udQjv4SJhfEhBK7JebYiCGDbChtuBoDW8fA~gXFA3JC-WZ8~DmowpCJAz1-F0N1I6fIFr3RvO29ou5jJV1YFx4S1sKtmaKQdABeVidUKW9Qi4sWYYWqsRg0igRk21sjgQ~TGy8cjWM03V1oDBx1R5m~ZHyVVKp7ohUJ8kF3OoZ-y--rI0dF5wzyRxYwRJKJdOwfMq2awSxQTmZ0U6WOyKEO-c30SRBCE34sadAV5X7WUc9MCgeVyeD3vXHdZcIIhTN21anh~MMKcrtk-fieKnihit6otmF0lVuTJN1N8z94z5sL7pusjOYBynBY78dnnY~Ng__"></img>
+								<h2 className="event__speaker-name">Михаил Борисов</h2>
+								<p className="event__speaker-job">Яндекс Go</p>
+								<p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
+							</div>
+							<div className="event__speaker">
+								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/7b88/1fdb/85bb62d2ee7a6bdbc2741d29509f0b15?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bl-4RshjxmXDhMKFa-t~x68VQDZHBn8I~s0t9Bd~Kevm6N~-dvfi0f0m684vGrNIAkkzyoqfNO35aRRv1mpE3RTOEoGxSP3TkofQ6Zqdv445mGhh-P0uWrtMFwvncj-GU5wQ7SE-h2BTppEubYfSH90BdMkgahUIOivhIFajxOEqfqTbXWn1DGEyH4cJAccpdsiCXyxC15l2-2y8mw0C2oTVLvU9TLpCW2ArC4QADfuSXNYrp0daega9hb8mukcFXjj0tzKfD4O7c4uy6i-LOQJBrfdHCyPYLdveGgrLu5muFoZjvuzofytw7faPcwrYUE5jBMxggxch3snrv50Uuw__"></img>
+								<h2 className="event__speaker-name">Станислав Константинов</h2>
 								<p className="event__speaker-job">Яндекс Go</p>
 								<p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
 							</div>
 							<div className="event__speaker">
 								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-								<h2 className="event__speaker-name">Константин</h2>
+								<h2 className="event__speaker-name">Евгений Иванов</h2>
 								<p className="event__speaker-job">Яндекс Go</p>
-								<p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
-							</div>
-							<div className="event__speaker">
-								<img className="speaker-photo" src="https://s3-alpha-sig.figma.com/img/0d0b/9674/20ab576175d39521e2f28078be78ce01?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CYbCCyrzaJASuZRZu~yJW7fTU3Yo2m1xO7BW71Z2wPhqff1mnVOvvSiXWOQtxXkAhwO4hYhWWEosKv5wIISEnMKT7Hm7whbsQE1wA-pQ48e7JyK6RcKGPt58M1QCwKFcKshbIjtglWMyDnZePDhkJ41pEzt9NhjeRIn1cbAC1mvodfhP4-X13Qs98bXE5IZZ-hZ-4XyOcSe6H5bp0pDadrh4nmbyCZhWgThWjWBQKPCjZrGmSzsdwtg2x2Jo8jyPaIsONJJmZh0l4A2WvzjjJV2gTpiUaFfZnB6-fNsFdnUfSsXpofZigTIRYr51hbAjWGEFe6z2xgwiB0fDeFX~nQ__"></img>
-								<h2 className="event__speaker-name">Эрмедек</h2>
-								<p className="event__speaker-job">Яндекс Go</p>
-								<p className="event__speaker-position">Руководитель группы разработки общих компонентов</p>
+								<p className="event__speaker-position">Руководитель группы разработки C++</p>
 							</div>
 						</div>
 					</div>
@@ -79,3 +79,4 @@ export const EventPage = () => {
 		</>
 	)
 }
+
