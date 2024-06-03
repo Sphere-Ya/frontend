@@ -1,12 +1,12 @@
 import React from "react";
-import PastEvents from "../EventsCardList/EventsCardList";
+import EventsCardList from "../EventsCardList/EventsCardList";
 import './Events.scss';
 
 function Events() {
 
     return (
         <section className="events">
-            <PastEvents />
+            <EventsCardList />
         </section>
     );
 }
